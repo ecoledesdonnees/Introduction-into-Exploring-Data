@@ -1,6 +1,3 @@
-Introduction-into-Exploring-Data
-================================
-
 ## Avancement de la traduction
 Pour suivre l'avancement de la traduction et la rejoindre, indiquez le cours sur lequel vous travaillez sur le tableau de bord à l'adresse suivante : 
 https://docs.google.com/spreadsheet/ccc?key=0Agg3M15SU77LdF9wM2J4d1NVRUdKNzhRQTh6R09vYXc#gid=0
