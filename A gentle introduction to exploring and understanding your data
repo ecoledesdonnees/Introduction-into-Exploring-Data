@@ -1,89 +1,91 @@
-This course was created for the School of Data by Tactical Technology Collective. Tactical Tech is an international NGO working at the point where rights advocacy meets information and technology. This course builds on Tactical Tech’s earlier course for the School of Data, A Gentle Introduction to Cleaning Data.
+Ce cours a été créé pour l'École des Données par le collectif Tactical Technology. Tactical Tech est une ONG internationale travaillant là où la défense des droits rencontre l'information et la technologie. Ce cours repose sur le cours précédent de Tactical Tech pour l'École des Données, A Gentle Introduction to Cleaning Data.
 
-Table of Contents
+Table des matières
 Introduction
-Section 1: Getting Started
-Section 2: Make a pivot table even more useful by adding ‘data fields’
-Section 3: Adding columns to pivot tables
-Section 4: Adding charts to pivot tables
+Section 1: Commencer
+Section 2: Rendre un tableau croisé dynamique plus utile en ajoutant des «champs de données»
+Section 3: Ajouter des colonnes aux tableaux croisés dynamiques
+Section 4: Ajouter des graphiques aux tableaux croisés dynamiques
+
 Introduction
 2 + 2 = ___
-Your resistance to answering this question is futile: you’ve probably just answered it without even thinking.
+Votre résistance à répondre à cette question est futile: vous y avez probablement répondu sans même y penser.
 
-We doubt it’s controversial to say that many of you taking this course have the instinct and itch to know what a column of numbers adds up to, or how the numbers are spread across the different categories in the dataset in front of you. Spreadsheets make this sort of descriptive analysis easy by giving you a kit of mathematical functions to add, subtract, multiply, divide and create averages and percentages from numbers. We think that you know how to use some of these, but if you want to brush up your skills, run through our data fundamentals course on analysing data.
+Nous doutons qu'il soit sujet à controverse de dire que beaucoup des personnes suivant ce cours ont l'instinct et le besoin de connaître la somme d'une colonne de nombres, ou comment les nombres sont répartis dans les différentes catégories dans le jeu de données que vous étudiez. Les feuilles de calcul simplifient ce genre d'analyse descriptive en vous donnant un kit de fonctions mathématiques pour additionner, soustraire, multiplier, diviser et créer des moyennes et des pourcentages à partir de nombres. Nous pensons que vous savez comment utiliser certaines de ces fonctions, mais si vous souhaitez remettre vos connaissances à niveau, parcourez le cours fondamental sur l'analyse de données.
 
-However, the spreadsheet also has another powerful descriptive analysis tool called pivot tables. In a nutshell, this is what they do:
+Néanmoins, les feuilles de calcul ont un autre puissant outil d'analyse descriptive appelé les tableaux croisés dynamiques. Pour résumer, voici ce qu'ils font:
 
 http://farm9.staticflickr.com/8114/8651881402_8622b4d4a1_o_d.png
-Image: “More Kittens”, courtesy Hitchster. Some rights reserved: CC-BY 2.0. Adapted by Tactical Tech.
-
-Pivot tables summarise complete datasets without you having to write formulae, create new columns, or arrange your data in any particular way. They enable you to combine data in ways that reveal the relationships that exist in the data, and show it to you in a new light. They don’t change your data, they have a stack of useful functions built in and using them effectively can cut down on a lot of repetitive tasks, saving you time.
-
-A combination of a number of spreadsheet functions – like sort and filter, and some formulae – work in a similar way to pivot tables in that they enable you to rearrange and pull out small bits of data more easily. Pivot tables do these things for the complete dataset, and present it to you so you can see it all.
-
-Upon completion of this course, you will:
-
-- understand the basics of pivot tables and how they work;
-- have created around 20 different examples of pivot tables;
-- be able to build and adapt the layout of pivot tables; and,
-- be able to use pivot tables to examine and explore a dataset.
-
-Course requirements
-A gentle introduction to exploring and understanding your data builds on two earlier School of Data courses:
-
-1. Data Fundamentals, which covers the basics of data, and how to work with a spreadsheet.
-2. A Gentle Introduction to Cleaning Data, which looks at the four most common ways that data gets messy and dirty, and outlines practical solutions to them using a spreadsheet.
-To do this course you will require the following:
-
-1. An up-to-date version of the free and open source software Libre Office installed on your computer. We assume you know how to do this. We have chosen to use LibreOffice because it doesn’t cost anything (unlike Microsoft Excel), doesn’t systematically invade your privacy or require a continual broadband internet connection (like Google Spreadsheet).
-2. a copy of the sample dataset for this course, which is a small set of data about the contents of the author’s kitchen shelves. In the course, we’ll use it to demonstrate the basics of making pivot tables.
-3. a copy of GRAIN’s data on “land grabbing”. This dataset is typical of the sorts of data that Non-Governmental Organisations (NGOs) create and work with. We have used it as the example dataset in our earlier course on data cleaning. In this download there are two worksheets: the original ‘dirty’ data, and the ‘cleaned’ version. Throughout, we will work with the cleaned version.
-
-Course contents
-There are four sections in this course.
-
-- Section 1 covers the first steps in building a pivot table, showing what happens to your data when it is added as a Row Field in a pivot table.
-- In Section 2 we look at how to make a pivot table even more useful by adding ‘data fields’.
-- Adding Column Fields is covered in Section 3.
-- To complete the course, Section 4 looks at how to create charts from data in pivot tables, adding a visual aspect to your understanding of the data.
-
-There are three parts in each section:
-
-- A quick task which uses a dataset about the contents of a kitchen shelf to illustrate the concept of pivot tables.
-- A longer task using a dataset about the massive sell-off of agricultural land in the developing world. This will go deeper into creating pivot tables, along with some problems that will help you put your new skills into practice.
-- A bonus feature, which explains how pivot tables relate to the other useful features in a spreadsheet.
+Image: “Plus de chatons”, fourni par Hitchster. Certains droits réservés: CC-BY 2.0. Adapté par Tactical Tech.
 
 
-How to do this course
-This course is quite short. We suggest you work sections 1 to 4 in sequence, as later sections probably won’t make much sense on their own.
+Les tableaux croisés dynamiques résument des jeux de données complets sans vous demander d'écrire des formules, créer de nouvelles colonnes, ou arranger vos données d'une façon particulière. Ils vous permettent de combiner des données de façons qui révèlent les relations existant dans les données et vous les montrent sous un nouveau jour. Ils ne changent pas vos données, mais ont un tas de fonctions intégrées utiles dont l'utilisation efficace vous épargnera beaucoup de tâches répétitives et vous feront gagner du temps.
 
-Section 1: Getting started
-Make sure you’ve got copies of the sample dataset and the GRAIN dataset on landgrabbing open in your copy of LibreOffice.
+Une combinaison de fonctions de tableur − comme trier et filtrer et quelques formules − fonctionne comme les tableaux croisés dynamiques dans le sens où elles vous permettent de réarranger et sortir de petits morceaux de données plus facilement. Les tableaux croisés dynamiques font ces choses pour les jeux de données complets et vous les présentent pour que vous voyiez tout.
 
-A quick task
-Take a look at the sample dataset about the selection of snacks on the author’s kitchen shelves. It has data about their main ingredient, quantity, and the risk they pose to the author’s health:
+En suivant ce cours, vous aller:
+
+- comprendre les bases des tableaux croisés dynamiques et leur fonctionnement;
+- créer environt 20 exemples différents de tableaux croisés dynamiques;
+- être capable de construire et adapter la disposition des tableaux croisés dynamiques;
+- être capable d'utiliser les tableaux croisés dynamiques pour examiner et explorer un jeu de données.
+
+
+Prérequis pour le cours
+La gentille introduction à l'exploration et à la compréhension de vos données se base sur deux autres cours de l'école des données:
+
+1. Fondamentaux sur les données, qui couvre les bases des données et comment travailler avec un tableur;
+2. Une gentille introduction au nettoyage de données, qui observe les quatre façons les plus courantes pour les données de devenir désorganisées et sales, et aborde leur résolution pratique grâce à un tableur.
+Pour suivre ce cours, vous aurez besoin des choses suivantes:
+
+1. Une version à jour du logiciel libre et ouvert LibreOffice installé sur votre ordinateur. Nous supposons que vous savez comment faire cela. Nous avons choisi d'utiliser LibreOffice parce qu'il ne coûte rien (contrairement à Microsoft Excel), n'envahit pas systématiquement votre vie privée et ne nécessite pas une connexion permanente et rapide à internet (contrairement à Google Spreadsheet).
+2. une copie de l'exemple de jeu de données pour ce cours, qui est un petit jeu de données concernant les étagères de la cuisine de l'auteur. Durant le cours, nous l'utiliserons pour montrer les bases des tableaux croisés dynamiques.
+3. une copie des données GRAIN sur l'appropriation de terrain. Ce jeu de données est typique de ceux que les organisations non gouvernementales (ONG) peuvent créer et utiliser. Nous l'avons utilisé précédemment comme exemple dans notre cours sur le nettoyage des données. Deux feuilles de calcul composent le document: les données «sales» d'origine et la version «nettoyée». Nous travaillerons avec la version nettoyée.
+
+Contenu du cours
+Ce cours est composé de quatre sections.
+
+- La section 1 couvre les premières étapes de la création d'un tableau croisé dynamique, montrant ce qu'il arrive à vos données lorsqu'elles sont ajoutées à un champ colonne dans un tableau croisé dynamique.
+- Dans la section 2, nous regardons comment rendre un tableau croisé dynamique encore plus efficace en ajoutant des «champs de données».
+- L'ajout de champs de colonne est abordé dans la section 3.
+- Pour terminer le cours, la section 4 montre comment créer des graphiques à partir des données des tableaux croisés dynamiques pour ajouter un aspect visuel à votre compréhension des données.
+
+Chaque section contient trois parties:
+
+- Un exercice rapide qui utilise un jeu de données concernant une étagère de cuisine pour illustrer le concept des tableaux croisés dynamiques.
+- Un exercice plus long utilisant un jeu de données sur la vente massive de terres agricoles dans les pays en développement. Cette partie va plus profondément dans la création de tableaux croisés dynamiques, avec d'autres problèmes qui vous aideront à mettre vos nouvelles compétences en pratique.
+- Un bonus qui explique comment les tableaux croisés dynamiques peuvent être liés aux autres fonctionnalités utiles d'un tableur.
+
+Comment suivre ce cours.
+Ce cours est relativement court. Nous vous suggérons de travailler sur les sections 1 à 4 d'une traite, car les dernières sections n'auront pas beaucoup de sens traitées séparément.
+
+Section 1: Commencer
+Assurez-vous d'avoir une copie des exemples de jeux de données et ouvrez jeu de données GRAIN sur l'appropriation de terrain dans LibreOffice.
+
+Une tâche rapide
+Regardez l'exemple de jeu de données sur la sélection de snacks dans les étagères de la cuisine de l'auteur. Il y a des données sur leurs ingrédients principaux, la quantité et les risques qu'ils posent à la santé de l'auteur:
 
 http://farm9.staticflickr.com/8528/8650783189_8c39e83f5a_o_d.png
 
-Start by building a pivot table using the data from the sample sheets:
+Commencez par construire un tableau croisé dynamique à partir des données des feuilles de calcul:
 
-1. Select all the data. You can do this by selecting cell A1 and dragging the mouse to cell D9, or holding down Ctrl-A (Cmd-A on Apple Mac computers).
+1. Sélectionnez toutes les données. Vous pouvez le faire en sélectionnant la cellule A1 et en glissant la souris jusqu'à la cellule D9, ou en pressant Ctrl-A (Cmd-A sur les ordinateurs Apple).
 
-2. With the data now selected choose Data → Pivot Table → Create from the spreadsheet’s top menu. A pop-up window will appear asking if you want to use the ‘current selection’. Choose OK.
+2. Avec les données sélectionnées, choisissez Données → Tableau croisé dynamique → Créer à partir de la feuille de calcul dans me menu du haut. Une fenêtre apparaîtra pour demander si vous souhaitez utiliser la «sélection courante». Choisissez OK.
 
-3. As illustrated below, you’ll see some grey tiles that correspond with the column headings from your raw data.
+3. Comme illustré ci-dessous, vous verrez quelques zones grises dont les en-têtes correspondent à vos données brutes.
 
-4. Let’s pivot them, that is, turn a column into a row. Select and hold the tile labelled Snack and drag it into the white area called Row Field, as illustrated below:
+4. Pivotons-les, c'est-à-dire, changeons une colonne en ligne. Sélectionnez et maintenez la zone étiquettée Snack et glissez-la dans la zone blanche appelée Row Field, tel qu'illustré ci-dessous:
 
 http://farm9.staticflickr.com/8259/8650783239_013f6acaf3_b_d.jpg
 
-5. Click OK. A new worksheet will be created, which you’ll see in the tabs at the bottom of the spreadsheet. Below is the data it will contain:
+5. Cliquez sur OK. Une nouvelle feuille de calcul sera créée et que vous verrez dans les onglets en bas du tableur. Ci-dessous, les données qu'il contiendra:
 
 http://farm9.staticflickr.com/8404/8651881512_d5de55d642_o_d.png
 
-So, what has happened to the data?
+Alors, qu'est-il arrivé aux données?
 
-In the original data, “Biscuit” is mentioned 3 times: the Pivot table shows it only once. “Sandwich” is mentioned 2 times: the Pivot table shows it only once. And so on. The Pivot table has grouped and summarised the data in the Snack column of your raw dataset. It answers the question of what different types of snack are included in the data.
+Dans les données d'origines, «Biscuit» est mentionné trois fois: le tableau croisé dynamique ne le montre qu'une seule fois. «Sandwich» est mentionné deux fois: le tableau croisé dynamique ne le montre qu'une seule fois. Et ainsi de suite. Le tableau croisé dynamique a regroupé et résumé les données de la colonne Snack de vos données brutes. Il répond à la question du nombre de types de snacks différents présents dans les données.
 
 Pivot tables can be created with more than one Row Field. Using the sample dataset, let’s choose another row of data to add:
 
