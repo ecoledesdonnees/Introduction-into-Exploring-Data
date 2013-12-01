@@ -87,40 +87,40 @@ Alors, qu'est-il arrivé aux données?
 
 Dans les données d'origines, «Biscuit» est mentionné trois fois: le tableau croisé dynamique ne le montre qu'une seule fois. «Sandwich» est mentionné deux fois: le tableau croisé dynamique ne le montre qu'une seule fois. Et ainsi de suite. Le tableau croisé dynamique a regroupé et résumé les données de la colonne Snack de vos données brutes. Il répond à la question du nombre de types de snacks différents présents dans les données.
 
-Pivot tables can be created with more than one Row Field. Using the sample dataset, let’s choose another row of data to add:
+Les tableaux croisés dynamiques peuvent être créés avec plus d'un champ ligne. À partir du jeu de données d'exemple, choisissons une autre ligne de données à ajouter:
 
-1. In the pivot table you have created, there is a secondary menu. This is activated with a right click of your mouse (or a two-fingered tap on the keypad on Apple Mac computers) anywhere on the pivot table. It will look like this:
+1. Dans le tableau croisé que vous avez créé se trouve un menu secondaire. Il peut être activé avec un clic droit de votre souris (ou un coup à deux doigts sur le keypad des ordinateurs Apple) n'importe où sur le tableau. Cela ressemblera à ceci:
 
 http://farm9.staticflickr.com/8254/8651881506_4358fa812e_o_d.png
 
-2. Select Edit Layout. This will open the pivot table editor again. This time, drag Ingredient into the Row Fields area, then click on OK. The data produced by the pivot table will now look different:
+2. Choisissez Modidifier le layout. Cela ouvrira à nouveau l'éditeur de tableau croisé. Cette fois-ci, glisser Ingredient dans la zone de champs ligne puis cliquez sur OK. Les données produites par le tableau sont maintenant différentes:
 
 http://farm9.staticflickr.com/8405/8651881524_aca9fa03a0_o_d.png
 
-What’s happened this time? In the same way as before, the pivot table has also grouped and summarised the data about ‘Ingredients’. The great thing about this is that it has grouped the data about ingredients to show them for each type of snack. We can turn this around to give another view, from the perspective of the ingredient, not the treat.
+Que s'est-il produit? Comme précédemment, le tableau croisé dynamique a également groupé et résumé les données concernant les 'Ingredients'. Ce qu'il y a de bien est qu'il a groupé les données sur les ingrédients pour les montrer pour chaque type de snack. Nous pouvons retourner cela pour avoir une autre vue, de la perspective des ingrédients et non depuis celle des friandises.
 
-To do this, edit the pivot table layout again (right click on the pivot table), re-order the tiles that appear as Row Fields (as shown below) to place ‘Ingredient’ on top.
+Pour cela, modifiez à nouveau le layout de tableau croisé (clic droit sur le tableau), réordonnez les tuiles apparaissant en tant que champs de ligne (comme montré ci-dessous) pour placer 'Ingredients' en haut.
 
 http://farm9.staticflickr.com/8546/8650783267_cda9dc955d_o_d.png
 
-Select OK to re-create the pivot table with the new layout. This is how the data in it will look:
+Choisissez OK pour recréer le tableau croisé avec la nouvelle organisation. Voici à quoi les données vont ressembler:
 
 http://farm9.staticflickr.com/8249/8650783409_2779f16f42_o_d.png
 
-In this pivot table the groups of values are arranged in a different way. Rather than showing the ingredients that go into each snack, this shows the types of snack that contain a particular ingredient.
+Dans ce tableau croisé, les groupes de valeurs sont arrangés différemment. Plutôt que montrer les ingrédients présents dans chaque friandise, il montre les types de snack contenant un ingrédient particulier.
 
-Got it? Let’s try it out on a larger dataset where we can see the value of a pivot table more dramatically.
+Vous avez compris? Essayons d'appliquer cela sur un jeu de données plus grand où nous pouvons voir les valeurs d'un tableau croisé de façon plus flagrante.
 
-A longer task
-Let’s try the same technique on the larger GRAIN dataset on commercial landgrabbing, a cleaned version of which you can download from the Datahub.
+Une tâche plus longue
+Essayons la même technique sur le plus grand jeu de données GRAIN sur l'appropriation commerciale de terrain, une version nettoyée que vous pouvez télécharger depuis le Datahub.
 
-Spend a bit of time familiarising yourself with this dataset. A good (but more time consuming) way of doing this is to work through the School of Data course called A Gentle Introduction to Cleaning Data, which also uses the GRAIN dataset as the basis of lessons.
+Prenez le temps de vous familiariser avec ce jeu de données. Un bonne (mais plus longue) façon de faire est de suivre le cours de l'école des données appelé A Gentle Introduction to Cleaning Data, qui utilise également ce jeu de données comme base.
 
-If you don’t have time right now, the basics of this dataset are as below:
+Si vous n'en avez pas le temps, les bases de ce jeu de données sont les suivantes:
 
-- the dataset has been made by GRAIN, a research and advocacy organisation which works to support biodiversity and sustainable, community-controlled food systems.
-- each row of the dataset contains details about the sale of a huge amount of agricultural land in a country, often in the global south.
-- the columns contain data about the names of investors and the countries where they are based, the country where the land deal has been carried out, the size of the land deal, and the amount of money invested to purchase the land, and whether the deal went ahead.
+- le jeu de données a été produit par GRAIN, une organisation de recherche et de promotion (advocacy) qui travaille pour soutenir la biodiversité et les systèmes de nourriture durables et contrôlés par la communauté;
+- chaque ligne du jeu de données contient des détails concernant la vente d'un très grand nombse de terres agricoles dans un pays, souvent dans un pays du sud;
+- les colonnes contiennent des données concernant les noms des investisseurs et les pays où ils sont basés, le pays où la vente des terres a eu lieu, la taille des terres, la quantité d'argent investie pour acheter la parcelle et si la vente s'est faite.
 
 To create a pivot table in the GRAIN dataset the steps are the same:
 
