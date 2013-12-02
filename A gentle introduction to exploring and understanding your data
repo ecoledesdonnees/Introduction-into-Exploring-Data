@@ -93,7 +93,7 @@ Les tableaux croisés dynamiques peuvent être créés avec plus d'un champ lign
 
 http://farm9.staticflickr.com/8254/8651881506_4358fa812e_o_d.png
 
-2. Choisissez Modidifier le layout. Cela ouvrira à nouveau l'éditeur de tableau croisé. Cette fois-ci, glisser Ingredient dans la zone de champs ligne puis cliquez sur OK. Les données produites par le tableau sont maintenant différentes:
+2. Choisissez Modifier le layout. Cela ouvrira à nouveau l'éditeur de tableau croisé. Cette fois-ci, glisser Ingredient dans la zone de champs ligne puis cliquez sur OK. Les données produites par le tableau sont maintenant différentes:
 
 http://farm9.staticflickr.com/8405/8651881524_aca9fa03a0_o_d.png
 
@@ -122,49 +122,49 @@ Si vous n'en avez pas le temps, les bases de ce jeu de données sont les suivant
 - chaque ligne du jeu de données contient des détails concernant la vente d'un très grand nombse de terres agricoles dans un pays, souvent dans un pays du sud;
 - les colonnes contiennent des données concernant les noms des investisseurs et les pays où ils sont basés, le pays où la vente des terres a eu lieu, la taille des terres, la quantité d'argent investie pour acheter la parcelle et si la vente s'est faite.
 
-To create a pivot table in the GRAIN dataset the steps are the same:
+Pour créer un tableau croisé du jeu de données GRAIN, les étapes sont les mêmes:
 
-1. Select the complete dataset (from cell A1 to I417). Remember that if you don’t select data, it won’t be included in the pivot table.
-2. From the top menu, select Data → Pivot Table → Create.
-3. In the window that appears, choose “Current selection” and then click “OK”.
-4. Choose the layout of your pivot table by dragging the ‘tiles’ representing the different columns of data into different parts of the pivot table layout.
-5. When you’re happy, select ‘OK’ to create the pivot table.
-6. If you want to change the layout of a pivot table, right click on the pivot table to bring up a secondary menu, and select ‘Edit Layout’.
-The GRAIN dataset has nine columns of data. In this lesson, we’ll just add different combinations of fields into the Row Fields part of the pivot table to answer specific questions.
+1. Sélectionnez le jeu de données complet (de la cellule A1 à la I417). N'oubliez pas que les données non sélectionnées ne seront pas incluses dans le tableau.
+2. Dans le menu du haut, sélectionnez Données → Tableau croisé dynamique → Créer.
+3. Dans le fenêtre qui apparaît, choisissez "Sélection courante" et cliquez sur "OK".
+4. Choisissez le layout de votre tableau croisé en déplaçant les "tuiles" représentant les différentes colonnes de données dans différentes parties du layout du tableau.
+5. Lorsque vous êtes satisfait, sélectionnez "OK" pour créer le tableau.
+6. Si vous voulez changer l'organisation du tableau croisé, faites un clic droit sur le tableau pour afficher un menu secondaire et sélectionnez "Modifier l'organisation".
+Le jeu de données GRAIN a neuf colonnes de données. Dans cette leçon, nous allons juste ajouter différentes combinaisons de champs dans les champs de lignes du tableau croisé pour répondre à des questions spécifiques.
 
-We’ll walk through one of the questions to get you started: “In which countries has land been acquired?”
+Nous allons traverser une des questions pour vous faire commencer: "Dans quels pays des terres ont-elles été acquises?"
 
-1. The data you need to answer this is in column A, labelled ‘Landgrabbed’.
+1. Les données qu'il vous faut pour répondre à cela sont dans la colonne A, appelée "Landgrabbed"
 
-2. Select the complete dataset. Go to Data → Pivot Table → Create.
+2. Sélectionnez tout le jeu de données. Allez dans Données → Tableau croisé dynamiques → Créer.
 
-3. Choose ‘Current selection’ and the empty layout window will appear, as below:
+3. Choisissez "Sélection actuelle" et la fenêtre de structure vide va apparaître, telle que ci-dessous:
 
 http://farm9.staticflickr.com/8264/8651881598_507370689f_b_d.jpg
 
-4. Uh oh! As you can see, there are two tiles that are labelled the same. This is because there are two columns that are very similar – ‘LandgrabbeD’ and ‘LandgrabbeR’ – and the pivot table layout unhelpfully trims the label. Hover your mouse over the tile to reveal the full name of the column of data you want to add, as below:
+4. Ah ah! Comme vous pouvez le voir, deux tuiles portent le même nom. Cela vient du fait que deux colonnes sont très similaires − "LandgrabbeD" et "LandgrabbeR" − et la structure du tableau croisé dynamique tronque les noms. Faites passer votre souris sur les tuiles pour révéler le nom complet de la colonne de données que vous souhaitez ajouter, comme ci-dessous:
 
 http://farm9.staticflickr.com/8262/8650783349_4a70be6197_o_d.png
 
-5. Now you know which tile contains the right data, drag ‘Landgrabbed’ into the Row Fields area, and click on OK to make the pivot table:
+5. Maintenant que vous savez quelle tuile contient les bonnes données, glissez "Landgrabbed" dans la zone des champs de colonne et cliquez sur OK pour créer le tableau:
 
 http://farm9.staticflickr.com/8528/8650783423_9e1dc2f9a0_b_d.jpg
 
-6. The data in this pivot table will be as below, a list of countries:
+6. Les données dans ce tableau croisé dynamique comme ci-dessous, une liste de pays:
 
 http://farm9.staticflickr.com/8264/8651881642_5b064291ed_o_d.png
 
-We can now build on this list to increase our understanding of what is in the dataset. For example, by editing the layout and dragging the tile called ‘Landgrabber’ into the Row Fields area, we can answer this question: “Which companies have acquired land in which countries?”
+Nous pouvons maintenant travailler sur cette liste pour améliorer notre compréhension de ce qui se trouve dans le jeu de données. Par exemple, en modifiant la structure et en déplaçant la tuile appelée "Landgrabber" dans la zone des champs colonnes, nous pouvons répondre à cette question: "Quelles sociétés ont acquis des terres dans quels pays?"
 
-1. Here’s how the pivot table layout should look:
+1. Voici à quoi la structure du tableau devrait ressembler:
 
 http://farm9.staticflickr.com/8252/8651881694_ab1b3b1853_b_d.jpg
 
-2. After clicking “OK”, here’s the first few rows of data that you’ll get in the pivot table:
+2. Après avoir cliqué sur "OK", voici les quelques premières colonnes de données que vous aurez dans le tableau croisé dynamique:
 
 http://farm9.staticflickr.com/8109/8651881792_32af36febd_o_d.png
 
-3. For extra points, try reversing the order of the tiles and creating a pivot table from that layout. It will show you the same data but arranged around the investor (the ‘Landgrabber’) rather than the country where land has been acquired. Here’s a bit of the data you’ll get from that layout:
+3. Pour plus de points, essayez d'inverser l'ordre des tuiles et de créer un tableau à partir de cette organisation. Ce tableau vous montrera les mêmes données, mais arrangées autour de l'investisseur (le "Landgrabber") plutôt que du pays où un terrain a été acquis. Voici un morceau des données que vous obtiendrez de cette organisation:
 
 http://farm9.staticflickr.com/8543/8650783527_d90b0bb1e6_o_d.png
 
