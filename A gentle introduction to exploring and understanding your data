@@ -181,31 +181,31 @@ Maintenant que vous êtes un expert, voici quelques autres questions auxquelles 
 Fonctionnalité bonus: tri et filtre automatique
 Là où vous voyez un triangle orienté vers le bas dans la ligne du haut d'un tableau croisé, cliquez pour activer les fonctionnalités de tri et de filtre automatique du tableur. Cliquez dessus pour faire apparaître l'interface et jouez avec pour voir comment cela affecte les données dans le tableau.
 
-Section 2: Make a pivot table even more useful by adding ‘data fields’
-In Section 1 we tried out building sorted and grouped lists that can use your data to answer questions. But what else can a pivot table do? In this section we’ll look at how the ‘Data Field’ part of the pivot table works.
+Section 2: Rendez un tableau croisé dynamique encore plus utile en ajoutant des "champs de données"
+Dans la première section, nous avons créé des listes triées et groupées pouvant utiliser vos données pour répondre à des questions. Mais que peut un tableau croisé dynamique faire d'autre? Dans cette section, nous allons regarder comment la partie "Champ de données" d'un tableau croisé fonctionne.
 
-A quick task
-Build a pivot table of the different types of snack again, as outlined in Section 1 above. This time however, we’ll add in a “Data Field” that will calculate how many of each type of snack there are:
+Une tâche rapide
+Construisez à nouveau un tableau croisé dynamique des différents types de snack, comme montré dans la section précédente. En revanche, nous allons cette fois ajouter un "Champ de donnée" qui va calculer combien il y a de chaque type de snack:
 
-1. Your pivot table layout should look like the image below:
+1. La structure de votre tableau devrait ressembler à l'image ci-dessous:
 
 http://farm9.staticflickr.com/8522/8650783577_b64b706933_b_d.jpg
 
-2. After creating this pivot table, the data you get will look like this:
+2. Après la création du tableau, les données que vous aurez ressembleront à ceci:
 
 http://farm9.staticflickr.com/8263/8650783579_7b37cd0f45_o_d.png
 
-So, what’s happened?
+Que s'est-il passé?
 
-The pivot table has grouped and summarised the data on the types of snacks, which you put into a Row Field. The data on the quantity of snacks – which you put in the Data Field – has been added up to create a total for each type of snack. Neat, huh? Let’s add in another Row Field, just as we did in Section 1, and see what it tells us:
+Le tableau croisé dynamique a groupé et résumé les données sur les types de snacks, que vous avez mis dans un champ données. Les données sur la quantité de snacks − que vous avez mise dans le champ de données − ont été ajoutées pour créer un total pour chaque type de snack. Pas mail, hein? Ajoutons un autre champ de données, comme nous l'avons fait dans la section 1, et voyons ce qu'il nous dit:
 
-1. Bring up the secondary menu by right clicking on the pivot table, and select ‘edit layout’.
+1. Faites apparaître le menu secondaire en cliquant droit sur le tableau et sélectionnez "modifier la structure".
 
-2. Change the pivot table layout so it looks like the screenshot below:
+2. Modifiez la structure du tableau pour qu'elle ressemble à ceci:
 
 http://farm9.staticflickr.com/8263/8650783605_68b4b3af7c_b_d.jpg
 
-3. The data shown will change again. This time, the types of snack are sub-grouped by the sort of ingredient, along with the quantities:
+3. Les données affichées vont encore changer. Cette fois, les types de snacks sont réunis en sous-groupes par type d'ingrédient avec les quantités:
 
 http://farm9.staticflickr.com/8393/8650783633_8cd805bc48_o_d.png
 
