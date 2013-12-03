@@ -168,18 +168,18 @@ http://farm9.staticflickr.com/8109/8651881792_32af36febd_o_d.png
 
 http://farm9.staticflickr.com/8543/8650783527_d90b0bb1e6_o_d.png
 
-Now you’re pretty much an expert, here are a few more questions that you can answer by adding in data to the Row Fields of a pivot table. Have a go at these:
+Maintenant que vous êtes un expert, voici quelques autres questions auxquelles vous pouvez répondre en ajoutant des données dans le champ Colonne d'un tableau croisé dynamique. Essayez celles-ci:
 
-1.In which countries are investors based (their base)?
-2. In which countries are investors based, and where did they acquire land?
-3. Which investors are working in which sectors?
-4. Which investors are working in which sectors, and how did they use the land they purchased? Tip: data on how acquired land was used is in the column called ‘Production’.
-5. Which companies work in which sectors, broken down by base country?
-6. What are the names of investors that have made similar sized land acquisitions, and in which countries did they make those acquisitions?
-7. What were similar sized land acquisitions used for, and in which country, and what is the status of the deal?
+1. Dans quels pays les investisseurs sont-ils basés (leur base)?
+2. Dans quels pays les investisseurs sont-ils basés et où ont-ils acquis des terrains?
+3. Quels investisseurs travaillent dans quels secteurs?
+4. Quels investisseurs travaillent dans quels secteurs et comment ont-ils utilisé les terrains qu'ils ont acquis? Indice: les données sur l'utilisation d'un terrain sont dans la colonne appelée "Production".
+5. Quelles sociétés travaillent dans quels secteurs, décomposé par pays où elles sont basées?
+6. Quels sont les noms des investisseurs ayant fait des acquisitions de terrain de taille similaire et dans quels pays ont-ils fait ces acquisitions?
+7. À quoi ont été utilisés les terrains de taille similaire, dans quel pays et quel était le statut de la transaction?
 
-Bonus features: sort and autofilter
-Where you see a downwards-pointing triangle in the top row of a pivot table, click it to activate the sort and autofilter features of the spreadsheet. Click on them to bring up the interface and have a play around with it to see how it affects the data in the pivot table.
+Fonctionnalité bonus: tri et filtre automatique
+Là où vous voyez un triangle orienté vers le bas dans la ligne du haut d'un tableau croisé, cliquez pour activer les fonctionnalités de tri et de filtre automatique du tableur. Cliquez dessus pour faire apparaître l'interface et jouez avec pour voir comment cela affecte les données dans le tableau.
 
 Section 2: Make a pivot table even more useful by adding ‘data fields’
 In Section 1 we tried out building sorted and grouped lists that can use your data to answer questions. But what else can a pivot table do? In this section we’ll look at how the ‘Data Field’ part of the pivot table works.
