@@ -209,71 +209,71 @@ http://farm9.staticflickr.com/8263/8650783605_68b4b3af7c_b_d.jpg
 
 http://farm9.staticflickr.com/8393/8650783633_8cd805bc48_o_d.png
 
-A longer task
-We can apply the same steps to the GRAIN dataset on landgrabbing to create more useful summary views of the data. For example, let’s find out how much land was reported as being acquired in each country:
+Une tâche plus longue
+Nous pouvons répéter les mêmes étapes sur le jeu de données GRAIN pour créer des vues représentant les données de façon plus utiles. Par exemple, cherchons la quantité de terrain acquise dans chaque pays:
 
-1.We won’t repeat in full the steps required to create a pivot table, but will show you the layout:
+1. Nous ne répétons pas toutes les étapes nécessaires à la création du tableau, mais nous vous montrons la structure:
 
 http://farm9.staticflickr.com/8100/8651881912_e6857dcf86_b_d.jpg
 
-Note: in the image above, the tile in Row Fields is ‘Landgrabbed’. As noted above, the layout editor shortens it in an annoying manner. Hover your mouse over it to show the full fieldname.
+Note: dans l'image ci-dessus, la tuile du champ colonee est "Landgrabbed". Comme noté plus haut, l'éditeur de structure réduit le nom. Faites passer votre souris sur le nom pour le montrer en entier.
 
-2. The effect is the same as with the example above in the short task. The data in the Row Field is summarised and grouped to show a list of countries, without duplicates. The data in the Data Field has been added up to give a total figure for each country. Here are some sample rows of what this pivot table will produce:
+2. L'effet est le même qu'avec l'exemple précédent de la tâche rapide. Les données du champ ligne sont résumées et groupées pour montrer une liste de pays, sans doublon. Les données du champ de données ont été ajoutées pour donner le total de chaque pays. Voici quelques exemples de ce que le tableau va produire:
 
 http://farm9.staticflickr.com/8111/8651881924_f5f2fe488a_o_d.png
 
-As before, we can continue to ask questions of the data by adding in different Row Fields. The data above shows the amount of land acquired in each country. Add in ‘Status of deal’ as a row field to refine this picture even further and show which deals are done, in process, proposed and so on.
+Comme précédemment, nous pouvons continuer à poser des questions sur les données en ajoutant différents champs de lignes. Les données ci-dessus montrent la quantité de terrain acquise dans chaque pays. Ajoutez "Status of deal" en tant que champ ligne pour raffiner le résulter et montrer quelles transactions sont terminées, en cours, proposées et ainsi de suite.
 
-1. Again, here’s the layout of the pivot table:
+1. À nouveau, voici la structure du tableau:
 
 http://farm9.staticflickr.com/8537/8651882012_9688445f9f_b_d.jpg
 
-2. After creating the pivot table from the layout above, here are a few rows of the data it will generate for you:
+2. Après avoir créé le tableau à partir de la structure précédente, voici quelques-unes des lignes qu'il générera pour vous:
 
 http://farm9.staticflickr.com/8520/8651881972_0094e4665e_o_d.png
 
-Using your knowledge of choosing Row Fields, and now adding Data Fields, try creating pivot tables which show the following:
+En utilisant vos connaissances sur le choix de champs de ligne et l'ajout de champs de données, essayer de créer des tableaux croisés montrant ce qui suit:
 
-1. a little profile for each investor, showing the countries where they have acquired land, and the size of the land area they have acquired e.g. a pivot table that shows Adecoagro reportedly made deals in Argentina for 242000 ha, Brazil for 165000 ha and Uruguay for 8600 ha.
-2. The total amount that that each investor has invested to acquire land e.g. this pivot table should show that Saxonian Estates reportedly made investments totalling USD 7.7 million.
-3. The amount of land that has been acquired, organised by investment sector e.g. this pivot table will show that 160,000 ha have been acquired by investors that work in the telecommunications sector.
-4. The amount of investment made, organised by the size of the land acquired, showing the country where the land was acquired e.g. the pivot table you make here should be able to quickly show us that land deals of 6000 ha were made in Australia for USD 335 million, in Russia for USD 39 million and in Nigeria where there is no record of the amount invested.
+1. un petit profil pour chaque investisseur, montrant les pays où ils ont acheté un terrain et la superficie totale de ce qu'ils ont acquis. Par exemple, un tableau montrant qu'Adecoagro a fait des transactions en Argentine pour 242000 ha, au Brésil pour 165000 ha et en Uruguay pour 8600 ha.
+2. La totalité de ce que chaque investisseur a investi pour acquérir des terres. Par exemple, un tableau montrant que Saxonian Estates a investi 7,7 millions de dollars (USD) au total.
+3. La quantité de terrain acquis, organisé par secteur d'investissement. Par exemple, le tableau doit montrer que 160000 ha ont été acquis par des investisseurs travaillant dans le secteur des télécommunications.
+4. La quantité d'investissements faits, organisé suivant la taille des terrains acquis, montrant les pays où les terres ont été achetées. Par exemple, le tableau croisé devrait montrer que les transactions de terrains de 6000 ha ont été faites en Australie pour 335 millions de dollars (USD), en Russie pour 34 millions de dollars et au Nigéria où les informations sur l'argent investi manquent.
 
-Bonus features: change which aspects of data are shown
-The fields that you add to pivot tables have two useful features you should know about. We’ll provide a workthrough below, but here’s an overview:
+Bonus: Modifiez quels aspects des données sont montrés
+Les champs que vous ajoutez aux tableaux croisés ont deux fonctionnalités utiles que vous devriez connaître. Nous allons les détailler par la suite, mais en voici un aperçu:
 
-1. The data that we have positioned in the Data Field of the pivot table is often just added up – that is, where there are multiple values they are added together to show the “sum”. However, the pivot table can show this data differently by:
+1. Les données que nous avons placées dans le champ de données du tableau sont souvent juste aditionnées − c'est-à-dire que le total est montré quand il y a plusieurs valeurs. Cependant, le tableau croisé pour montrer ces données différemment en:
 
-picking out the highest (the “max”) or lowest (the “min”) values from a list.
-giving a total of the number of values (the “count”).
-calculating the data as a percentage or running total.
-This feature is activated by double-clicking on any tile that you’ve dragged into any area of the pivot table layout editor.
+- choisissant la valeur la plus élevée ou la plus basse dans une liste;
+- comptant le nombre d'occurrences de valeurs données;
+- calculant les données en pourcentage;
+Cette fonctionnalité est activée en double-cliquant sur n'importe quelle tuile dans l'éditeur de structure du tableau.
 
-2. As with the Row Fields, you can have more than one data field in a pivot table. This means you can display different aspects of the same data next to each other. To use it, just drag another fieldname into the Data Fields area.
+2. Comme pour le champ de ligne, vous pouvez avoir plus d'un champ de données dans un tableau croisé. Cela signifie que vous pouvez représenter côte à côte différents aspects d'une même donnée. Pour l'utiliser, glissez un autre champ de données dans la zone de champs de données.
 
-Here’s an example pivot table layout that demonstrates both these features.
+Voici un exemple de tableau croisé montrant ces deux fonctionnalités.
 
-1. This is the layout you’re aiming for:
+1. Ceci est la structure que vous souhaitez obtenir:
 
 http://farm9.staticflickr.com/8519/8650783759_25799b909b_b_d.jpg
 
-2. To get there, build your pivot table as usual. This time drag ‘Hectares’ into the Data Fields four times. You’ll see this:
+2. Pour y parvenir, construisez votre tableau comme d'habitude. Cette fois, glissez quatre fois de suite "Hectares" dans le champ de données. Vous verrez ceci:
 
 http://farm9.staticflickr.com/8120/8650783763_950020dd67_o_d.png
 
-3. Next, change the way that the data are displayed. To do this, double click on one of the tiles you’ve dragged into Data Fields . A pop-up window will appear, like the one below:
+3. Puis, changez la façon dont les données sont représentées. Pour cela, double-cliquez sur une des tuiles. Une fenêtre apparaîtra, comme ci-dessous:
 
 http://farm9.staticflickr.com/8105/8651882022_4def49f6ca_o_d.png
 
-4. Choose an option from the list, then select OK.
+4. Choisissez une option dans la liste puis OK.
 
-5. When you’ve done all four, the tiles in the Data Fields part of the layout will look like this below:
+5. Quand vous avez fait les quatre, les tuiles de la zone de champs de données de la structure ressembleront à ceci:
 
 http://farm9.staticflickr.com/8105/8650783783_b21f9dea9b_o_d.png
 
-6. After you’ve completed your layout, create the pivot table.
+6. Quand la structure est terminée, créez le tableau croisé.
 
-7. This pivot table will show four pieces of data for each country where land has been acquired: the number (or ‘count’) of deals where the amount of land is recorded, the largest acquisition (‘max’), the smallest acquisition (‘min’) and the total amount of land (‘sum’). Here’s a clipping from the pivot table which shows the entry for Argentina:
+7. Ce tableau croisé dynamique montrera quatre morceaux de données pour chaque pays où du terrain a été acheté: le nombre de transactions où la surface de terrain est enregistrée, la plus grande acquisition, la plus petite et la surface totale de terrain. Voici un extrait du tableau qui montre l'entrée concernant l'Argentine:
 
 http://farm9.staticflickr.com/8536/8650783799_e5f073b57f_o_d.png
 
