@@ -181,193 +181,193 @@ Maintenant que vous êtes un expert, voici quelques autres questions auxquelles 
 Fonctionnalité bonus: tri et filtre automatique
 Là où vous voyez un triangle orienté vers le bas dans la ligne du haut d'un tableau croisé, cliquez pour activer les fonctionnalités de tri et de filtre automatique du tableur. Cliquez dessus pour faire apparaître l'interface et jouez avec pour voir comment cela affecte les données dans le tableau.
 
-Section 2: Make a pivot table even more useful by adding ‘data fields’
-In Section 1 we tried out building sorted and grouped lists that can use your data to answer questions. But what else can a pivot table do? In this section we’ll look at how the ‘Data Field’ part of the pivot table works.
+Section 2: Rendez un tableau croisé dynamique encore plus utile en ajoutant des "champs de données"
+Dans la première section, nous avons créé des listes triées et groupées pouvant utiliser vos données pour répondre à des questions. Mais que peut un tableau croisé dynamique faire d'autre? Dans cette section, nous allons regarder comment la partie "Champ de données" d'un tableau croisé fonctionne.
 
-A quick task
-Build a pivot table of the different types of snack again, as outlined in Section 1 above. This time however, we’ll add in a “Data Field” that will calculate how many of each type of snack there are:
+Une tâche rapide
+Construisez à nouveau un tableau croisé dynamique des différents types de snack, comme montré dans la section précédente. En revanche, nous allons cette fois ajouter un "Champ de donnée" qui va calculer combien il y a de chaque type de snack:
 
-1. Your pivot table layout should look like the image below:
+1. La structure de votre tableau devrait ressembler à l'image ci-dessous:
 
 http://farm9.staticflickr.com/8522/8650783577_b64b706933_b_d.jpg
 
-2. After creating this pivot table, the data you get will look like this:
+2. Après la création du tableau, les données que vous aurez ressembleront à ceci:
 
 http://farm9.staticflickr.com/8263/8650783579_7b37cd0f45_o_d.png
 
-So, what’s happened?
+Que s'est-il passé?
 
-The pivot table has grouped and summarised the data on the types of snacks, which you put into a Row Field. The data on the quantity of snacks – which you put in the Data Field – has been added up to create a total for each type of snack. Neat, huh? Let’s add in another Row Field, just as we did in Section 1, and see what it tells us:
+Le tableau croisé dynamique a groupé et résumé les données sur les types de snacks, que vous avez mis dans un champ données. Les données sur la quantité de snacks − que vous avez mise dans le champ de données − ont été ajoutées pour créer un total pour chaque type de snack. Pas mail, hein? Ajoutons un autre champ de données, comme nous l'avons fait dans la section 1, et voyons ce qu'il nous dit:
 
-1. Bring up the secondary menu by right clicking on the pivot table, and select ‘edit layout’.
+1. Faites apparaître le menu secondaire en cliquant droit sur le tableau et sélectionnez "modifier la structure".
 
-2. Change the pivot table layout so it looks like the screenshot below:
+2. Modifiez la structure du tableau pour qu'elle ressemble à ceci:
 
 http://farm9.staticflickr.com/8263/8650783605_68b4b3af7c_b_d.jpg
 
-3. The data shown will change again. This time, the types of snack are sub-grouped by the sort of ingredient, along with the quantities:
+3. Les données affichées vont encore changer. Cette fois, les types de snacks sont réunis en sous-groupes par type d'ingrédient avec les quantités:
 
 http://farm9.staticflickr.com/8393/8650783633_8cd805bc48_o_d.png
 
-A longer task
-We can apply the same steps to the GRAIN dataset on landgrabbing to create more useful summary views of the data. For example, let’s find out how much land was reported as being acquired in each country:
+Une tâche plus longue
+Nous pouvons répéter les mêmes étapes sur le jeu de données GRAIN pour créer des vues représentant les données de façon plus utiles. Par exemple, cherchons la quantité de terrain acquise dans chaque pays:
 
-1.We won’t repeat in full the steps required to create a pivot table, but will show you the layout:
+1. Nous ne répétons pas toutes les étapes nécessaires à la création du tableau, mais nous vous montrons la structure:
 
 http://farm9.staticflickr.com/8100/8651881912_e6857dcf86_b_d.jpg
 
-Note: in the image above, the tile in Row Fields is ‘Landgrabbed’. As noted above, the layout editor shortens it in an annoying manner. Hover your mouse over it to show the full fieldname.
+Note: dans l'image ci-dessus, la tuile du champ colonee est "Landgrabbed". Comme noté plus haut, l'éditeur de structure réduit le nom. Faites passer votre souris sur le nom pour le montrer en entier.
 
-2. The effect is the same as with the example above in the short task. The data in the Row Field is summarised and grouped to show a list of countries, without duplicates. The data in the Data Field has been added up to give a total figure for each country. Here are some sample rows of what this pivot table will produce:
+2. L'effet est le même qu'avec l'exemple précédent de la tâche rapide. Les données du champ ligne sont résumées et groupées pour montrer une liste de pays, sans doublon. Les données du champ de données ont été ajoutées pour donner le total de chaque pays. Voici quelques exemples de ce que le tableau va produire:
 
 http://farm9.staticflickr.com/8111/8651881924_f5f2fe488a_o_d.png
 
-As before, we can continue to ask questions of the data by adding in different Row Fields. The data above shows the amount of land acquired in each country. Add in ‘Status of deal’ as a row field to refine this picture even further and show which deals are done, in process, proposed and so on.
+Comme précédemment, nous pouvons continuer à poser des questions sur les données en ajoutant différents champs de lignes. Les données ci-dessus montrent la quantité de terrain acquise dans chaque pays. Ajoutez "Status of deal" en tant que champ ligne pour raffiner le résulter et montrer quelles transactions sont terminées, en cours, proposées et ainsi de suite.
 
-1. Again, here’s the layout of the pivot table:
+1. À nouveau, voici la structure du tableau:
 
 http://farm9.staticflickr.com/8537/8651882012_9688445f9f_b_d.jpg
 
-2. After creating the pivot table from the layout above, here are a few rows of the data it will generate for you:
+2. Après avoir créé le tableau à partir de la structure précédente, voici quelques-unes des lignes qu'il générera pour vous:
 
 http://farm9.staticflickr.com/8520/8651881972_0094e4665e_o_d.png
 
-Using your knowledge of choosing Row Fields, and now adding Data Fields, try creating pivot tables which show the following:
+En utilisant vos connaissances sur le choix de champs de ligne et l'ajout de champs de données, essayer de créer des tableaux croisés montrant ce qui suit:
 
-1. a little profile for each investor, showing the countries where they have acquired land, and the size of the land area they have acquired e.g. a pivot table that shows Adecoagro reportedly made deals in Argentina for 242000 ha, Brazil for 165000 ha and Uruguay for 8600 ha.
-2. The total amount that that each investor has invested to acquire land e.g. this pivot table should show that Saxonian Estates reportedly made investments totalling USD 7.7 million.
-3. The amount of land that has been acquired, organised by investment sector e.g. this pivot table will show that 160,000 ha have been acquired by investors that work in the telecommunications sector.
-4. The amount of investment made, organised by the size of the land acquired, showing the country where the land was acquired e.g. the pivot table you make here should be able to quickly show us that land deals of 6000 ha were made in Australia for USD 335 million, in Russia for USD 39 million and in Nigeria where there is no record of the amount invested.
+1. un petit profil pour chaque investisseur, montrant les pays où ils ont acheté un terrain et la superficie totale de ce qu'ils ont acquis. Par exemple, un tableau montrant qu'Adecoagro a fait des transactions en Argentine pour 242000 ha, au Brésil pour 165000 ha et en Uruguay pour 8600 ha.
+2. La totalité de ce que chaque investisseur a investi pour acquérir des terres. Par exemple, un tableau montrant que Saxonian Estates a investi 7,7 millions de dollars (USD) au total.
+3. La quantité de terrain acquis, organisé par secteur d'investissement. Par exemple, le tableau doit montrer que 160000 ha ont été acquis par des investisseurs travaillant dans le secteur des télécommunications.
+4. La quantité d'investissements faits, organisé suivant la taille des terrains acquis, montrant les pays où les terres ont été achetées. Par exemple, le tableau croisé devrait montrer que les transactions de terrains de 6000 ha ont été faites en Australie pour 335 millions de dollars (USD), en Russie pour 34 millions de dollars et au Nigéria où les informations sur l'argent investi manquent.
 
-Bonus features: change which aspects of data are shown
-The fields that you add to pivot tables have two useful features you should know about. We’ll provide a workthrough below, but here’s an overview:
+Bonus: Modifiez quels aspects des données sont montrés
+Les champs que vous ajoutez aux tableaux croisés ont deux fonctionnalités utiles que vous devriez connaître. Nous allons les détailler par la suite, mais en voici un aperçu:
 
-1. The data that we have positioned in the Data Field of the pivot table is often just added up – that is, where there are multiple values they are added together to show the “sum”. However, the pivot table can show this data differently by:
+1. Les données que nous avons placées dans le champ de données du tableau sont souvent juste aditionnées − c'est-à-dire que le total est montré quand il y a plusieurs valeurs. Cependant, le tableau croisé pour montrer ces données différemment en:
 
-picking out the highest (the “max”) or lowest (the “min”) values from a list.
-giving a total of the number of values (the “count”).
-calculating the data as a percentage or running total.
-This feature is activated by double-clicking on any tile that you’ve dragged into any area of the pivot table layout editor.
+- choisissant la valeur la plus élevée ou la plus basse dans une liste;
+- comptant le nombre d'occurrences de valeurs données;
+- calculant les données en pourcentage;
+Cette fonctionnalité est activée en double-cliquant sur n'importe quelle tuile dans l'éditeur de structure du tableau.
 
-2. As with the Row Fields, you can have more than one data field in a pivot table. This means you can display different aspects of the same data next to each other. To use it, just drag another fieldname into the Data Fields area.
+2. Comme pour le champ de ligne, vous pouvez avoir plus d'un champ de données dans un tableau croisé. Cela signifie que vous pouvez représenter côte à côte différents aspects d'une même donnée. Pour l'utiliser, glissez un autre champ de données dans la zone de champs de données.
 
-Here’s an example pivot table layout that demonstrates both these features.
+Voici un exemple de tableau croisé montrant ces deux fonctionnalités.
 
-1. This is the layout you’re aiming for:
+1. Ceci est la structure que vous souhaitez obtenir:
 
 http://farm9.staticflickr.com/8519/8650783759_25799b909b_b_d.jpg
 
-2. To get there, build your pivot table as usual. This time drag ‘Hectares’ into the Data Fields four times. You’ll see this:
+2. Pour y parvenir, construisez votre tableau comme d'habitude. Cette fois, glissez quatre fois de suite "Hectares" dans le champ de données. Vous verrez ceci:
 
 http://farm9.staticflickr.com/8120/8650783763_950020dd67_o_d.png
 
-3. Next, change the way that the data are displayed. To do this, double click on one of the tiles you’ve dragged into Data Fields . A pop-up window will appear, like the one below:
+3. Puis, changez la façon dont les données sont représentées. Pour cela, double-cliquez sur une des tuiles. Une fenêtre apparaîtra, comme ci-dessous:
 
 http://farm9.staticflickr.com/8105/8651882022_4def49f6ca_o_d.png
 
-4. Choose an option from the list, then select OK.
+4. Choisissez une option dans la liste puis OK.
 
-5. When you’ve done all four, the tiles in the Data Fields part of the layout will look like this below:
+5. Quand vous avez fait les quatre, les tuiles de la zone de champs de données de la structure ressembleront à ceci:
 
 http://farm9.staticflickr.com/8105/8650783783_b21f9dea9b_o_d.png
 
-6. After you’ve completed your layout, create the pivot table.
+6. Quand la structure est terminée, créez le tableau croisé.
 
-7. This pivot table will show four pieces of data for each country where land has been acquired: the number (or ‘count’) of deals where the amount of land is recorded, the largest acquisition (‘max’), the smallest acquisition (‘min’) and the total amount of land (‘sum’). Here’s a clipping from the pivot table which shows the entry for Argentina:
+7. Ce tableau croisé dynamique montrera quatre morceaux de données pour chaque pays où du terrain a été acheté: le nombre de transactions où la surface de terrain est enregistrée, la plus grande acquisition, la plus petite et la surface totale de terrain. Voici un extrait du tableau qui montre l'entrée concernant l'Argentine:
 
 http://farm9.staticflickr.com/8536/8650783799_e5f073b57f_o_d.png
 
-Section 3: Adding columns to pivot tables
-In the previous sections, we looked at how to add row fields and data fields to your pivot tables. We also looked at how to sort and filter data in pivot tables, and how to adapt the display of data to pick out the largest and smallest values in a list. In this section, we’ll add the final basic component: Column Fields.
+Section 3: Ajouter des colonnes aux tableaux croisés dynamiques
+Dans les sections précédentes, nous avons vu comment ajouter des champs lignes et des champs de données à vos tableaux. Nous avons également vu comment trier et filtrer les données et comment adapter la représentation des données pour trouver la plus grande et la plus petite valeurs dans une liste. Dans cette section, nous allons ajouter le dernier composant de base: les champs de colonnes.
 
-A quick task
-After building nearly 30 pivot tables in this course, we’re sure you’re now getting the hang of this. The next step is to choose the data that can be a Column Field in your pivot table.
+Une tâche rapide
+Après presque 30 tableaux croisés dynamiques créés dans ce cours, nous sommes sûrs que y êtes maintenant habitué(e). L'étape suivante est de choisir les données pouvant être un champ colonne dans votre tableau.
 
-1. Take as a starting point the pivot table you made about snacks in Section 2. Edit the layout. This time, drag the tile labelled ‘Risk to Health’ into the Column Fields area. It will look like this:
+1. Commencer par prendre le tableau que vous avez créé sur les friandises à la section 2. Éditez la structure. Cette fois, glissez la tuile appelée « risque pour la santé » dans la zone des champs de colonne. Cela ressemblera à ça:
 
 http://farm9.staticflickr.com/8240/8650783997_2349e16a88_b_d.jpg
 
-2. After creating the pivot table, below is how the data in it will look with the new columns added:
+2. Après avoir créé le tableau croisé dynamique, les données avec la nouvelle colonne ressembleront à ceci:
 
 http://farm9.staticflickr.com/8258/8651882116_19373fb432_o_d.png
 
-The effect of adding the Column Field is to further sub-group the data. Here’s the original pivot table from Section 2, so you can see the difference:
+L'ajout de champ colonne a pour effet de faire des sous-groupes avec les données. Voici le tableau original de la section 2, à titre de comparaison:
 
 http://farm9.staticflickr.com/8249/8650783891_95e27f9b02_o_d.png
 
-The version that includes columns enables you to see at a glance which the high risk snacks are, what they are made of, and how many of them there are. Better avoid chocolate biscuits and cream cake!
+La version incluant les colonnes vous permet de voir d'un coup d'œil quels risques les snacks présentent, de quoi ils sont composés et combien il y en a. Mieux vaut éviter les biscuits au chocolat et le gâteau à la crème!
 
-A longer task
-Returning to the GRAIN dataset, we can see how adding this final dimension affects how the data is shown.
+Une tâche plus longue
+En revenant au jeu de données GRAIN, nous pouvons voir comment l'ajout de cette dernière dimension peut affecter les données montrées.
 
-1. Create a basic pivot table which shows how much land (‘Hectares’) has been acquired in each country (‘Landgrabbed’).
+1. Créez un tableau basique montrant combien de terrain (en Hectares) a été acquis dans chaque pays ('Landgrabbed').
 
-2. This time include the ‘Status of deal’ field in the Column Fields area of the pivot table layout editor:
+2. Ajoutez cette fois le champ 'Status of deal' à la zone des champs de colonne de l'éditeur de structure du tableau:
 
 http://farm9.staticflickr.com/8249/8650783917_025a6c59e8_b_d.jpg
 
-The effect should be quite predictable for you by now. The pivot table will give an overview of the total amounts of land acquired for each country, broken down by the status of the deal:
+Le résultat ne devrait plus vous surprendre. Le tableau croisé dynamique va vous donner un aperçu des quantités totales de terrain acquises pour chaque pays, séparés en fonction du statut de la transaction:
 
 http://farm9.staticflickr.com/8241/8651882184_aa92a7a4ce_b_d.jpg
 
-The ‘Status of deal’ field is a fairly convenient field to add to the Column Fields area. When summarised by the pivot table it has only five distinct categories. This means it fits easily into the screen area! Something like ‘Production’, which has over 100 categories, would not be as easy to view.
+Le champ 'Status of deal' est un champ très pratique à ajouter à la zone des champs de colonne. Lorsqu'il est résumé par le tableau, il n'a que cinq catégories distinctes. Cela signifie qu'il tient facilement dans un écran! Un champ tel que 'Production', qui a plus de 100 catégories, ne serait pas aussi simple à voir.
 
-Have a go at changing the layout of the pivot table whilst keeping ‘Status of deal’ as a column:
+Essayez de changer la structure du tableau tout en conservant 'Status of deal' en colonne:
 
-1. Replace the tile in the Row Fields with ‘Landgrabber’ (ie. the investor) and change the tile in Data Fields to ‘Projected Investment’ (ie. the amount paid for land). This shows how much money investors have tied up in done deals, deals that are signed, proposed and so on.
-2. Replace the Row Fields with ‘Sector’ and the Data Fields with a count of the number of investors. We covered how to do this in Section 2’s Bonus Feature section. This pivot table will show the number and status of deals by the sector that the investor is most associated with.
+1. Remplacez la tuile des champs de ligne par 'Landgrabber' (l'investisseur) et changez la tuile des champs de données par 'Projected Investment' (la somme payée pour le terrain). Cela montre combien les investisseurs ont mis dans les transactions passées, celles qui sont signées, proposées, et ainsi de suite.
+2. Remplacez les champs de ligne par 'Sector' et les champs de données par un décompte du nombre d'investisseurs. Nous avons vu comment faire cela dans le bonus de la section 2. Le tableau croisé dynamique va montrer le nombre et le statut des transactions par le secteur avec lequel l'investisseur est le plus associé.
 
-Bonus features: standard filters
-As we noted in Section 1, the sort and filter features of the spreadsheet work in pivot tables. Another useful feature that operates in pivot table data is the standard filter. We can use this to exercise far more control over what data is displayed in a worksheet, and in pivot tables. Let’s see how it works.
+Bonus: filtres standard
+Comme nous l'avons remarqué dans la section 1, les fonctionnalités de tri et filtre du tableur fonctionnent dans les tableaux croisés dynamiques. Une autre fonctionnalité utile qui fonctionne également est le filtre standard. Nous pouvons l'utiliser pour mieux contrôler quelles données sont représentées dans une feuille de calcul et dans les tableaux croisés dynamiques. Voyons comment cela fonctionne.
 
-1. Create this pivot table from the GRAIN data. It has ‘Landgrabbed’ and ‘Landgrabber’ as the Row Fields, ‘Status of deal’ as a Column Field, and a sum of the total size of deals (‘Hectares’) as the Data Fields:
+1. Créez le tableau à partir des données GRAIN avec 'Landgrabbed' et 'Landgrabber' en champs de ligne, 'Status of deal' en champ de colonne et la somme de la taille totale des transactions ('Hectares') en champ de données:
 
 http://farm9.staticflickr.com/8531/8650783981_1a48a58842_b_d.jpg
 
-2. Click OK. The data it produces will be like this:
+2. Cliquez sur OK. Les données produites ressembleronts à ceci:
 
 http://farm9.staticflickr.com/8246/8650784015_fd8e793109_b_d.jpg
 
-3. In the resulting pivot table click on the tile called ‘Filter’ in cell A1. The Filter Criteria window will pop-up.
+3. Dans le tableau résultant, cliquez sur la tuile appelée 'Filtre' dans la cellule A1. La fenêtre de critère de filtre va apparaître.
 
-4. Change the fields to make them look the same as the below. Then click ‘OK’ to apply this filter to the pivot table:
+4. Modifiez les champs pour les faire ressembler à ci-dessous. Cliquez ensuite sur OK pour appliquer ce filtre sur le tableau croisé:
 
 http://farm9.staticflickr.com/8117/8651882252_5eebe5a07a_b_d.jpg
 
-5. This will filter the data to show only those deals that are equal to or larger than (>= in mathematical notation) 100,000 ha.
+5. Cela va filtrer les données pour ne montrer que les transactions sur 100 000 ha ou plus (>= en notation mathématique).
 
-6. The filter can be removed by opening the Filter Criteria window and selecting ‘none’ in the field name drop-down menu.
+6. Le filtre peut être supprimé en ouvrant la fenêtre de critère de filtre et en sélectionnant 'aucun' dans le menu déroulant de nom du champ.
 
-Section 4: Adding charts to pivot tables
-You can chart data that is produced from a pivot table. Having both a summary of the data, and a chart is a way of further exploring and coming to an understanding of the data you have. Using the GRAIN data, here’s a simple example of how it works.
+Section 4: Ajouter des graphiques aux tableaux croisés dynamiques
+Vous pouvez faire des graphiques à partir des données produites dans un tableau croisé dynamique. Disposer d'un résumé des données et d'un graphique est un moyen d'explorer davantage et de mieux comprendre vos données. Voici un exemple simple à partir des données GRAIN.
 
-Once again, create a basic pivot table which shows the amount of land purchased in each country: drag ‘Landgrabbed’ into the Row Fields and ‘Hectares’ into the Data Fields. Here’s a sample of how the data will appear:
+Une fois de plus, créez un tableau de base montrer la quantité de terrain acquis dans chaque pays: glissez 'Landgrabbed' dans les champs de ligne et 'Hectares' dans les champs de données. Voici comment les données apparaîtront:
 
 http://farm9.staticflickr.com/8525/8650784073_49f0d4076d_o_d.png
 
-First, sort the data so the largest land deal is at the top of the list:
+Tout d'abord, triez les données pour que la plus grande acquisition soit en haut de la liste:
 
-1. Select cells B4 to A69 (in that order).
-2. Click the “Sort Descending” button in the spreadsheet toolbar (it’s a little ‘up’ arrow).
-Second, add a chart:
+1. Sélectionnez les cellules B4 à A69 (dans cet ordre).
+2. Cliquez sur le bouton 'Tri décroissant' dans la barre d'outil du tableur (c'est une petite flèche vers le haut)
+Ajoutez ensuite un graphique:
 
-1. The data should still be selected from when you filtered it.
+1. Les données devraient toujours être sélectionnées depuis que vous les avez filtrées.
 
-2. In the top menu, go to Insert → Chart
+2. Dans le menu du haut, allez dans Insertion → Graphique 
 
-3. The Chart Wizard window will pop-up. The chart it will choose is a Vertical Bar Graph. Don’t change a thing, just select Finish and you’ll get this dense chart:
+3. La fenêtre de l'assistant de création de graphique va apparaître. Le graphique choisi sera un histogramme vertical. Ne changez rien et choisissez juste 'Terminer' pour obtenir ce graphique dense:
 
 http://farm9.staticflickr.com/8099/8650784079_73eab1974a_o_d.png
 
-Third, refine the chart to show only the 10 countries where the most land has been acquired:
+Puis, rafinez le graphique pour ne montrer que les dix pays où le plus de terrain a été acquis:
 
-1. By hiding rows in the pivot table, we can change what data is shown in the chart.
+1. En masquant les lignes du tableau, nous pouvons changer les données montrées dans la tableau.
 
-2. Select rows 14 to 70. In the top menu, go to Format → Row → Hide. The chart will change to the below, which is far easier to grasp:
+2. Choisissez les lignes 14 à 70. Dans le menu du haut, allez dans Format → Ligne → Masquer. Le tableau changera comme ci-dessous, ce qui est bien plus simple à comprendre:
 
 http://farm9.staticflickr.com/8380/8650784069_9383c79099_o_d.png
 
-A quick task
-Try to create a pivot table with a chart showing which investors have acquired the most land.
+Tâche rapide
+Essayez de créer un tableau croisé dynamique montrant quels investisseurs ont acquis le plus de terrain.
 
-- See more at: http://schoolofdata.org/handbook/courses/gentle-introduction-exploring-and-understanding-data/#sthash.Zj2anwnM.dpuf
+- Plus d'informations à: http://schoolofdata.org/handbook/courses/gentle-introduction-exploring-and-understanding-data/#sthash.Zj2anwnM.dpuf
