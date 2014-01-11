@@ -338,36 +338,36 @@ http://farm9.staticflickr.com/8117/8651882252_5eebe5a07a_b_d.jpg
 
 6. Le filtre peut être supprimé en ouvrant la fenêtre de critère de filtre et en sélectionnant 'aucun' dans le menu déroulant de nom du champ.
 
-Section 4: Adding charts to pivot tables
-You can chart data that is produced from a pivot table. Having both a summary of the data, and a chart is a way of further exploring and coming to an understanding of the data you have. Using the GRAIN data, here’s a simple example of how it works.
+Section 4: Ajouter des graphiques aux tableaux croisés dynamiques
+Vous pouvez faire des graphiques à partir des données produites dans un tableau croisé dynamique. Disposer d'un résumé des données et d'un graphique est un moyen d'explorer davantage et de mieux comprendre vos données. Voici un exemple simple à partir des données GRAIN.
 
-Once again, create a basic pivot table which shows the amount of land purchased in each country: drag ‘Landgrabbed’ into the Row Fields and ‘Hectares’ into the Data Fields. Here’s a sample of how the data will appear:
+Une fois de plus, créez un tableau de base montrer la quantité de terrain acquis dans chaque pays: glissez 'Landgrabbed' dans les champs de ligne et 'Hectares' dans les champs de données. Voici comment les données apparaîtront:
 
 http://farm9.staticflickr.com/8525/8650784073_49f0d4076d_o_d.png
 
-First, sort the data so the largest land deal is at the top of the list:
+Tout d'abord, triez les données pour que la plus grande acquisition soit en haut de la liste:
 
-1. Select cells B4 to A69 (in that order).
-2. Click the “Sort Descending” button in the spreadsheet toolbar (it’s a little ‘up’ arrow).
-Second, add a chart:
+1. Sélectionnez les cellules B4 à A69 (dans cet ordre).
+2. Cliquez sur le bouton 'Tri décroissant' dans la barre d'outil du tableur (c'est une petite flèche vers le haut)
+Ajoutez ensuite un graphique:
 
-1. The data should still be selected from when you filtered it.
+1. Les données devraient toujours être sélectionnées depuis que vous les avez filtrées.
 
-2. In the top menu, go to Insert → Chart
+2. Dans le menu du haut, allez dans Insertion → Graphique 
 
-3. The Chart Wizard window will pop-up. The chart it will choose is a Vertical Bar Graph. Don’t change a thing, just select Finish and you’ll get this dense chart:
+3. La fenêtre de l'assistant de création de graphique va apparaître. Le graphique choisi sera un histogramme vertical. Ne changez rien et choisissez juste 'Terminer' pour obtenir ce graphique dense:
 
 http://farm9.staticflickr.com/8099/8650784079_73eab1974a_o_d.png
 
-Third, refine the chart to show only the 10 countries where the most land has been acquired:
+Puis, rafinez le graphique pour ne montrer que les dix pays où le plus de terrain a été acquis:
 
-1. By hiding rows in the pivot table, we can change what data is shown in the chart.
+1. En masquant les lignes du tableau, nous pouvons changer les données montrées dans la tableau.
 
-2. Select rows 14 to 70. In the top menu, go to Format → Row → Hide. The chart will change to the below, which is far easier to grasp:
+2. Choisissez les lignes 14 à 70. Dans le menu du haut, allez dans Format → Ligne → Masquer. Le tableau changera comme ci-dessous, ce qui est bien plus simple à comprendre:
 
 http://farm9.staticflickr.com/8380/8650784069_9383c79099_o_d.png
 
-A quick task
-Try to create a pivot table with a chart showing which investors have acquired the most land.
+Tâche rapide
+Essayez de créer un tableau croisé dynamique montrant quels investisseurs ont acquis le plus de terrain.
 
-- See more at: http://schoolofdata.org/handbook/courses/gentle-introduction-exploring-and-understanding-data/#sthash.Zj2anwnM.dpuf
+- Plus d'informations à: http://schoolofdata.org/handbook/courses/gentle-introduction-exploring-and-understanding-data/#sthash.Zj2anwnM.dpuf
