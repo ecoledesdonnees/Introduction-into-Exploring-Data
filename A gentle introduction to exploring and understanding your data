@@ -277,66 +277,66 @@ http://farm9.staticflickr.com/8105/8650783783_b21f9dea9b_o_d.png
 
 http://farm9.staticflickr.com/8536/8650783799_e5f073b57f_o_d.png
 
-Section 3: Adding columns to pivot tables
-In the previous sections, we looked at how to add row fields and data fields to your pivot tables. We also looked at how to sort and filter data in pivot tables, and how to adapt the display of data to pick out the largest and smallest values in a list. In this section, we’ll add the final basic component: Column Fields.
+Section 3: Ajouter des colonnes aux tableaux croisés dynamiques
+Dans les sections précédentes, nous avons vu comment ajouter des champs lignes et des champs de données à vos tableaux. Nous avons également vu comment trier et filtrer les données et comment adapter la représentation des données pour trouver la plus grande et la plus petite valeurs dans une liste. Dans cette section, nous allons ajouter le dernier composant de base: les champs de colonnes.
 
-A quick task
-After building nearly 30 pivot tables in this course, we’re sure you’re now getting the hang of this. The next step is to choose the data that can be a Column Field in your pivot table.
+Une tâche rapide
+Après presque 30 tableaux croisés dynamiques créés dans ce cours, nous sommes sûrs que y êtes maintenant habitué(e). L'étape suivante est de choisir les données pouvant être un champ colonne dans votre tableau.
 
-1. Take as a starting point the pivot table you made about snacks in Section 2. Edit the layout. This time, drag the tile labelled ‘Risk to Health’ into the Column Fields area. It will look like this:
+1. Commencer par prendre le tableau que vous avez créé sur les friandises à la section 2. Éditez la structure. Cette fois, glissez la tuile appelée « risque pour la santé » dans la zone des champs de colonne. Cela ressemblera à ça:
 
 http://farm9.staticflickr.com/8240/8650783997_2349e16a88_b_d.jpg
 
-2. After creating the pivot table, below is how the data in it will look with the new columns added:
+2. Après avoir créé le tableau croisé dynamique, les données avec la nouvelle colonne ressembleront à ceci:
 
 http://farm9.staticflickr.com/8258/8651882116_19373fb432_o_d.png
 
-The effect of adding the Column Field is to further sub-group the data. Here’s the original pivot table from Section 2, so you can see the difference:
+L'ajout de champ colonne a pour effet de faire des sous-groupes avec les données. Voici le tableau original de la section 2, à titre de comparaison:
 
 http://farm9.staticflickr.com/8249/8650783891_95e27f9b02_o_d.png
 
-The version that includes columns enables you to see at a glance which the high risk snacks are, what they are made of, and how many of them there are. Better avoid chocolate biscuits and cream cake!
+La version incluant les colonnes vous permet de voir d'un coup d'œil quels risques les snacks présentent, de quoi ils sont composés et combien il y en a. Mieux vaut éviter les biscuits au chocolat et le gâteau à la crème!
 
-A longer task
-Returning to the GRAIN dataset, we can see how adding this final dimension affects how the data is shown.
+Une tâche plus longue
+En revenant au jeu de données GRAIN, nous pouvons voir comment l'ajout de cette dernière dimension peut affecter les données montrées.
 
-1. Create a basic pivot table which shows how much land (‘Hectares’) has been acquired in each country (‘Landgrabbed’).
+1. Créez un tableau basique montrant combien de terrain (en Hectares) a été acquis dans chaque pays ('Landgrabbed').
 
-2. This time include the ‘Status of deal’ field in the Column Fields area of the pivot table layout editor:
+2. Ajoutez cette fois le champ 'Status of deal' à la zone des champs de colonne de l'éditeur de structure du tableau:
 
 http://farm9.staticflickr.com/8249/8650783917_025a6c59e8_b_d.jpg
 
-The effect should be quite predictable for you by now. The pivot table will give an overview of the total amounts of land acquired for each country, broken down by the status of the deal:
+Le résultat ne devrait plus vous surprendre. Le tableau croisé dynamique va vous donner un aperçu des quantités totales de terrain acquises pour chaque pays, séparés en fonction du statut de la transaction:
 
 http://farm9.staticflickr.com/8241/8651882184_aa92a7a4ce_b_d.jpg
 
-The ‘Status of deal’ field is a fairly convenient field to add to the Column Fields area. When summarised by the pivot table it has only five distinct categories. This means it fits easily into the screen area! Something like ‘Production’, which has over 100 categories, would not be as easy to view.
+Le champ 'Status of deal' est un champ très pratique à ajouter à la zone des champs de colonne. Lorsqu'il est résumé par le tableau, il n'a que cinq catégories distinctes. Cela signifie qu'il tient facilement dans un écran! Un champ tel que 'Production', qui a plus de 100 catégories, ne serait pas aussi simple à voir.
 
-Have a go at changing the layout of the pivot table whilst keeping ‘Status of deal’ as a column:
+Essayez de changer la structure du tableau tout en conservant 'Status of deal' en colonne:
 
-1. Replace the tile in the Row Fields with ‘Landgrabber’ (ie. the investor) and change the tile in Data Fields to ‘Projected Investment’ (ie. the amount paid for land). This shows how much money investors have tied up in done deals, deals that are signed, proposed and so on.
-2. Replace the Row Fields with ‘Sector’ and the Data Fields with a count of the number of investors. We covered how to do this in Section 2’s Bonus Feature section. This pivot table will show the number and status of deals by the sector that the investor is most associated with.
+1. Remplacez la tuile des champs de ligne par 'Landgrabber' (l'investisseur) et changez la tuile des champs de données par 'Projected Investment' (la somme payée pour le terrain). Cela montre combien les investisseurs ont mis dans les transactions passées, celles qui sont signées, proposées, et ainsi de suite.
+2. Remplacez les champs de ligne par 'Sector' et les champs de données par un décompte du nombre d'investisseurs. Nous avons vu comment faire cela dans le bonus de la section 2. Le tableau croisé dynamique va montrer le nombre et le statut des transactions par le secteur avec lequel l'investisseur est le plus associé.
 
-Bonus features: standard filters
-As we noted in Section 1, the sort and filter features of the spreadsheet work in pivot tables. Another useful feature that operates in pivot table data is the standard filter. We can use this to exercise far more control over what data is displayed in a worksheet, and in pivot tables. Let’s see how it works.
+Bonus: filtres standard
+Comme nous l'avons remarqué dans la section 1, les fonctionnalités de tri et filtre du tableur fonctionnent dans les tableaux croisés dynamiques. Une autre fonctionnalité utile qui fonctionne également est le filtre standard. Nous pouvons l'utiliser pour mieux contrôler quelles données sont représentées dans une feuille de calcul et dans les tableaux croisés dynamiques. Voyons comment cela fonctionne.
 
-1. Create this pivot table from the GRAIN data. It has ‘Landgrabbed’ and ‘Landgrabber’ as the Row Fields, ‘Status of deal’ as a Column Field, and a sum of the total size of deals (‘Hectares’) as the Data Fields:
+1. Créez le tableau à partir des données GRAIN avec 'Landgrabbed' et 'Landgrabber' en champs de ligne, 'Status of deal' en champ de colonne et la somme de la taille totale des transactions ('Hectares') en champ de données:
 
 http://farm9.staticflickr.com/8531/8650783981_1a48a58842_b_d.jpg
 
-2. Click OK. The data it produces will be like this:
+2. Cliquez sur OK. Les données produites ressembleronts à ceci:
 
 http://farm9.staticflickr.com/8246/8650784015_fd8e793109_b_d.jpg
 
-3. In the resulting pivot table click on the tile called ‘Filter’ in cell A1. The Filter Criteria window will pop-up.
+3. Dans le tableau résultant, cliquez sur la tuile appelée 'Filtre' dans la cellule A1. La fenêtre de critère de filtre va apparaître.
 
-4. Change the fields to make them look the same as the below. Then click ‘OK’ to apply this filter to the pivot table:
+4. Modifiez les champs pour les faire ressembler à ci-dessous. Cliquez ensuite sur OK pour appliquer ce filtre sur le tableau croisé:
 
 http://farm9.staticflickr.com/8117/8651882252_5eebe5a07a_b_d.jpg
 
-5. This will filter the data to show only those deals that are equal to or larger than (>= in mathematical notation) 100,000 ha.
+5. Cela va filtrer les données pour ne montrer que les transactions sur 100 000 ha ou plus (>= en notation mathématique).
 
-6. The filter can be removed by opening the Filter Criteria window and selecting ‘none’ in the field name drop-down menu.
+6. Le filtre peut être supprimé en ouvrant la fenêtre de critère de filtre et en sélectionnant 'aucun' dans le menu déroulant de nom du champ.
 
 Section 4: Adding charts to pivot tables
 You can chart data that is produced from a pivot table. Having both a summary of the data, and a chart is a way of further exploring and coming to an understanding of the data you have. Using the GRAIN data, here’s a simple example of how it works.
